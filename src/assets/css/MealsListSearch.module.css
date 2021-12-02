@@ -1,0 +1,42 @@
+.meals-search {
+  position: relative;
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: MealsList_meals-appear__2r167 1s ease-out forwards;
+}
+
+.meals-search form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+}
+
+.meals-search label {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.meals-search input {
+  border-radius: 8px;
+  border: 1px solid #7a7a7a;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  font-weight: bold;
+}
+
+/* batuhan sahinbaz */
+
+.meals-search input::placeholder {
+  font-weight: normal;
+  color: #a09e9e;
+}
+
+.icon {
+  pointer-events: none;
+  position: absolute;
+  top: 32px;
+  right: 34px;
+  z-index: 1;
+}
